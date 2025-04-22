@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="demo.js"></script>
+    <link rel="StyleSheet" href="style.css">
+<body>  
+<html>
+    <head>
+        <title>Registration Form</title>
+        <style>
+            table { width: 100%; border-collapse: collapse; }
+            th, td { padding: 8px; border: 1px solid black; text-align: left; }
+            #successMessage{ color: green;display:none;}
+            #errorMessage { color: red; display: none; }
+        </style>
+        <b>
+        <link rel="StyleSheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <a href="index.html"><i class="fa-solid fa-house"></i>Home</a>
+        </b>
+    </head>
+    <body>
+        <hr>
+        <h2>REGISTRATION FORM:</h2>
+        <form id="Registerform" >
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            <label for="age">Age:</label> 
+            <input type="number"id="age" name="age" placeholder="Enter your age" required><br><br>
+            <label for="address">Address:</label>
+            <input type="address"id="address" name="address" placeholder="Enter your Address" required><br></br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email" required><br><br>
+            <label for="course">Course:</label>
+            <select id="course" name="course" placeholder="Enter your course"required>
+                <option value="FullStack">FullStack</option>
+                <option value="Frontend">Frontend</option>
+                <option value="Backend">Backend</option>
+            </select><br></br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+        <hr>
+        <p id="successMessage"></p>
+        <p id="errorMessage"></p>
+            <h2>Registered Users</h2>
+            <table id="userTable" border="4">
+             <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Address</th>
+                    <th>Email</th>
+                    <th>Course</th>
+                    <th>Actions</th>
+                </tr>
+             </thead>
+             <tbody>
+             </tbody>           
+            </table>
+</body>
+</html>

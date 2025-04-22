@@ -1,0 +1,100 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Navigation Bar */
+header {
+    background: #004080;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    color: #004080;
+    font-size: 36px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Courses Section */
+.courses {
+    padding: 50px 20px;
+    background: white;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.course {
+    background: #e6e6e6;
+    padding: 20px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+/* Footer */
+footer {
+    background: #004080;
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+} 
+/*form
+{
+   border:2px solid black;
+   padding: 20px;
+   width: 300px;
+   border-radius: 10px;
+   justify-content: center;
+}*/
+
+/*table{
+    border:2px solid black;
+    padding: 20px;
+    width:300px;
+    border-radius:10px;
+}*/
