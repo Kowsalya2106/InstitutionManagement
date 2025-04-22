@@ -1,4 +1,4 @@
-## Institution Management System 
+## Institution Management System ##
 This project is a web-based Institution Management System designed to display an institution's profile and allow users to register for available courses.
 
 # Technical Highlights
