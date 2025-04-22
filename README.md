@@ -2,11 +2,11 @@
 This project is web-based Institution Management System designed display institu's page
 
 ## Technical Highlights
-# 1.Frontend
+ 1.Frontend
   Html
   Css
   Javascript
-# 2.Backend
-   Java
- # Database
+ 2.Backend
+   Java with SpringBoot
+  Database
   1.Mysql
