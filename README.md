@@ -9,13 +9,13 @@ This project is a web-based Institution Management System designed to display an
  # Project purpose
  The main goal project is to:
  
-Display the institution’s profile, location, and contact details
+1.Display the institution’s profile, location, and contact details
 
-List the types of courses offered
+2.List the types of courses offered
 
-Allow interested users to register for a course
+3.Allow interested users to register for a course
 
-Store registration details in a MySQL database
+4.Store registration details in a MySQL database
 
-Display registered user details on the registration page
+5.Display registered user details on the registration page
  
